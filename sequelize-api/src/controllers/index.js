@@ -1,0 +1,1 @@
+export * as prodController from './product.controller'
