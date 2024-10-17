@@ -1,0 +1,440 @@
+/* estilod generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.dark-section {
+  color: #fff;
+  background-color: #1b1b32;
+}
+
+.section-title {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.section-text {
+  font-size: 1.2rem;
+  padding: 15px 0;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.light-section {
+  color: #000;
+  background-color: #fff;
+}
+
+.black-text {
+  color: #000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.bttn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.gray-background {
+  background-color: #eee;
+}
+
+/* Barra de navegacion */
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-brand{
+  font-size: 25px;  
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hero section main*/
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-main {
+  padding: 3rem;
+}
+
+.hero-imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.hero-main h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.hero h1 {
+  font-family: "Rubik Dirt", cursive;
+}
+
+/* About me Section */
+.aboutme {
+  height: 300px;
+  padding: 10px;
+}
+
+.aboutme-main {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* experience section */
+.experience {
+  padding: 40px 40px 60px 40px;
+}
+
+/* .experience .row div{
+  height: 250px;
+  background-color: purple;
+} */
+
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.experience i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.badges-container {
+  font-size: 25px;
+  font-size: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 4px;
+  background-color: rgba(84, 45, 3, 0.655);
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.badge:hover {
+  background-color: rgba(200, 106, 6, 0.655);
+}
+
+.experince-column {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.4s ease-in;
+}
+
+.experince-column:hover {
+  background-color: #8080804d;
+}
+
+/* projects actions */
+.projects {
+  padding: 40px;
+}
+
+.projects img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.4s ease;
+}
+
+.projects-container {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.4s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overly p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-item:hover img {
+  opacity: 0.2;
+}
+
+.project-item:hover .overlay {
+  opacity: 1;
+}
+
+.project-item-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.overlay .icons-container {
+  display: flex;
+}
+
+.overlay i {
+  color: #000;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* articules */
+.articules {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.articules .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articules .card-header {
+  font-weight: bold;
+}
+
+/* testimonials */
+.testimonials {
+  padding: 40px 40px 80px 40px;
+}
+
+.testimonials .carousel {
+  max-width: 800px;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials img {
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonial-text {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.testimonial-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonial-info p {
+  margin-bottom: 0;
+}
+
+.testimonial-info .client-name {
+  font-size: 1.2rem;
+}
+
+.testimonial-info .client-title {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+
+/* contact */
+.contact .container{
+  max-width: 800px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contact .rectangle{
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius:  10px;
+  box-shadow: 0px 1px 4px 1px #fff;
+}
+
+.contact .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact .description{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.contact button {
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 1.25em 1.50em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.contact button i {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.contact button:hover i {
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* footer */
+footer{
+  /* min-height: 500px; */
+  padding: 20px 20px 60px 20px;
+
+}
+
+.footer-logo{
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-text{
+  font-size: 1.5rem;
+  padding: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.social-network-icons a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.social-network-icons i{
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.2 ease-in;  
+}
+
+.social-network-icons a:hover{
+  background-color: #fff;
+  border: 2px solid rgb(13, 110, 253)   
+}
+
+.social-network-icons a:hover i{
+  color: #000;
+}
+
+.author-rights{
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 40px 20px 20px 20px;
+}
+
+/* Responsive styles */
+
+/* projects-icons */
+@media screen and (min-width: 400px) {
+  .overlay p {
+    font-size: 18px;    
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-bottom-image {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonials img {
+    height: 120px;
+    width: 120px;
+   
+  }
+
+  .testimonial-text {    
+    font-size: 15px;
+  }
+}
+
+/* @media (767px <= width) { */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
