@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+
+	background: #1D202B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+
+    /* flex styles */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{    
+    width: 90%;
+    max-width: 1200px;    
+    padding: 40px 0;
+
+    /* background-color: red; */
+    
+    /* grid styles */
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+
+/* concerts styles */
+.container-concerts{
+
+    /* flex grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.container-card{
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container-card .text{
+    height: 100%; 
+    
+    /* flex styles */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+/* banner styles */
+.container-banner{
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+
+    /* flex styles */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.container-banner ul{
+    list-style: none;
+    /* background-color: red; */
+}
+
+.container-banner ul li{
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* button */
+.container-banner .button {
+	background: #b64d11bd;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px){
+    .container-concerts{
+
+        /* flex grid */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .container-concerts{
+
+        /* flex grid */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .app{
+        grid-template-columns: 1fr;
+    }
+}
